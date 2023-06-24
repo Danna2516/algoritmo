@@ -1,0 +1,42 @@
+/* body{
+    background: blue;
+} */
+section{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    padding: 50px 0;
+    background: url("../img/mitologia.jpg");
+    background-size: cover;
+}
+
+h1{
+    font-size: 100px;
+    color: rgb(219, 174, 120);
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 22px;
+    color: beige;
+}
+
+button{
+    padding: 12px 40px;
+    margin: 15px;
+    background: rgba(129, 131, 105, 0.685);
+    color:floralwhite;
+    border: 2px solid rgb(88, 78, 78);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+button:hover{
+    background: transparent;
+    border-radius: 0;
+    border: 2px dotted #fff;
+
+}
